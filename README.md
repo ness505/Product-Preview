@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/preview-product-page-using-html-and-css-for-a-responsive-design-5S9D0PaBVp)
 - Live Site URL: [Product Preview Card](https://ness505.github.io/Product-Preview/)
 
 ## 📚 My process
