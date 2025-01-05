@@ -20,8 +20,17 @@ body{
     border-radius: 10px;
     overflow: hidden;
 
+    .ProductImage{
+        width: 50%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
     .Content
     {
+        width: 50%;
         box-sizing: border-box;
         padding-top: 15px;
         padding-left: 35px;
@@ -36,10 +45,12 @@ body{
             line-height: 1;
             font-size: 30px;
             color: hsl(212, 21%, 14%);
+            padding-bottom: 10px;
         }
         .price{
             display: flex;
             align-items: center;
+            margin-bottom: 15px;
             
         }
         .cost{
@@ -52,7 +63,7 @@ body{
 
         Button{
             width: 100%;
-            height:45px;
+            height:50px;
             border-radius: 10px;
             border-style: none;
             background-color: hsl(158, 36%, 37%);
@@ -72,4 +83,48 @@ body{
 .attribution{
     position: absolute;
     bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    body{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Principal
+    {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    
+        .ProductImage{
+            width:100%;
+            height: auto;
+        }
+        .Content
+        {
+            width: 100%;
+            box-sizing: border-box;
+            padding-top: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 25px;
+    
+            h1{
+                padding-bottom: 0px;
+            }
+            .price{
+                margin-bottom: 0;
+            }
+            .cost{
+                padding-right:20px;
+            }
+        }
+    }
+    
+    .attribution{
+        position: absolute;
+        bottom: 10px;
+    }
 }
