@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    height:95vh;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Principal
+{
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .Content
+    {
+        box-sizing: border-box;
+        padding-top: 15px;
+        padding-left: 35px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+
+        h1{
+            font-family: Fraunces;
+            line-height: 1;
+            font-size: 30px;
+            color: hsl(212, 21%, 14%);
+        }
+        .price{
+            display: flex;
+            align-items: center;
+            
+        }
+        .cost{
+            font-family: 'Fraunces';
+            font-size: 30px;
+            font-weight: 800;
+            color: hsl(158, 36%, 37%);
+            padding-right:15px;
+        }
+
+        Button{
+            width: 100%;
+            height:45px;
+            border-radius: 10px;
+            border-style: none;
+            background-color: hsl(158, 36%, 37%);
+            color: white;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        Button:hover{
+            background-color: hsl(158, 36%, 21%);
+            cursor: pointer;
+        }
+    }
+}
+
+.attribution{
+    position: absolute;
+    bottom: 10px;
+}
